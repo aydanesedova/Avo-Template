@@ -1,0 +1,661 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100px;
+  width: 100%;
+  position: absolute !important;
+  background-color: transparent !important;
+}
+nav .avo {
+  width: 75%;
+}
+nav .avo a {
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+}
+nav .avo a:hover {
+  color: #fff;
+}
+nav .avo a span {
+  color: #d1002c;
+}
+nav .avo .avoList {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 18px;
+}
+nav .avo .avoList li .home {
+  color: #d1002c !important;
+}
+nav .avo .avoList li a {
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 23px;
+  color: rgba(255, 255, 255, 0.6) !important;
+  transition: 0.4s ease;
+}
+nav .avo .avoList li a:hover {
+  color: #d1002c !important;
+}
+nav .avo .avoList .searchInp {
+  height: 40px;
+  min-width: 200px;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.6) !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav .avo .avoList .searchInp #inp {
+  width: 80%;
+  min-height: 30px;
+  border: transparent;
+  background-color: transparent;
+  margin-left: 10px;
+}
+nav .avo .avoList .searchInp #inp::placeholder {
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 23px;
+  color: rgba(255, 255, 255, 0.6);
+}
+nav .avo .avoList .searchInp #btn {
+  background-color: #d1002c;
+  border-top-right-radius: 30px;
+  width: 20%;
+  min-height: 40px;
+  border: none;
+  color: rgba(255, 255, 255, 0.757);
+  border-bottom-right-radius: 30px;
+}
+
+#minimalWebsite {
+  min-height: 850px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/assets/images/bg_1\ \(1\).jpg);
+  background-position: center;
+  background-size: cover;
+}
+#minimalWebsite .minimalWebsitetxt {
+  min-height: 300px;
+  width: 80%;
+  align-items: start;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+#minimalWebsite .minimalWebsitetxt h1 {
+  width: 65%;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 900;
+}
+#minimalWebsite .minimalWebsitetxt p {
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.8);
+  min-height: 80px;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 23px;
+  width: 70%;
+}
+#minimalWebsite .minimalWebsitetxt button {
+  width: 21%;
+  min-height: 55px;
+  border: none;
+  background-color: #d1002c;
+  border-radius: 7px;
+  color: #fff;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+}
+#minimalWebsite .yearsExperience {
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  justify-content: center;
+}
+#minimalWebsite .yearsExperience div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+#minimalWebsite .yearsExperience div h4 {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 900;
+}
+#minimalWebsite .yearsExperience div .line {
+  height: 40px;
+  background-color: #d1002c;
+  width: 5px;
+}
+#minimalWebsite .yearsExperience p {
+  color: rgba(255, 255, 255, 0.8);
+  min-height: 80px;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 23px;
+  width: 40%;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  text-align: end;
+  min-height: 100px;
+}
+
+@media screen and (max-width: 991px) {
+  #minimalWebsite .minimalWebsitetxt h1 {
+    font-size: 20px;
+  }
+  #minimalWebsite .minimalWebsitetxt p {
+    font-size: 12px;
+  }
+  #minimalWebsite .yearsExperience h4 {
+    font-size: 20px;
+  }
+  #minimalWebsite .yearsExperience p {
+    font-size: 12px;
+  }
+}
+#aboutUS {
+  width: 100%;
+  min-height: 1050px;
+  display: flex;
+  justify-content: center;
+}
+#aboutUS .aboutUsTxt {
+  min-height: 200px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+#aboutUS .aboutUsTxt h2 {
+  min-height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+  min-height: 80px;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 36px;
+  font-family: sans-serif;
+  line-height: 44px;
+  font-weight: 800;
+}
+#aboutUS .designAll {
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#aboutUS .designAll .design {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 18%;
+  min-height: 200px;
+}
+#aboutUS .designAll .design i {
+  font-size: 60px;
+  color: #000;
+}
+#aboutUS .designAll .design h6 {
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 16px;
+  font-family: sans-serif;
+  line-height: 24px;
+  font-weight: 600;
+  min-height: 40px;
+  display: flex;
+  align-items: end;
+}
+#aboutUS .welcome {
+  display: flex;
+  width: 90%;
+  min-height: 510px;
+  align-items: end;
+  text-align: end;
+  justify-content: end;
+  flex-direction: column;
+}
+#aboutUS .welcome h3 {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: sans-serif;
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: 700;
+  width: 85%;
+}
+#aboutUS .welcome p {
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 16px;
+  font-family: sans-serif;
+  line-height: 29px;
+  font-weight: 500;
+  color: #a0a0b4;
+  width: 96%;
+}
+#aboutUS .welcome .farAbout {
+  width: 100%;
+  min-height: 150px;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  flex-direction: column;
+}
+#aboutUS .welcome .farAbout .engine {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#aboutUS .welcome .farAbout .engine span {
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 50px;
+  font-family: sans-serif;
+  line-height: 50px;
+  font-weight: 300;
+  color: #d1002c;
+}
+#aboutUS .welcome .farAbout .engine h5 {
+  width: 60%;
+  text-align: start;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+#aboutUS .welcome .farAbout .far {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+}
+#aboutUS .searchEngine {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#aboutUS .searchEngine img {
+  width: 90%;
+  min-height: 360px;
+}
+#aboutUS .searchEngine .farAboutEngine {
+  width: 90%;
+  min-height: 180px;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  flex-direction: column;
+}
+#aboutUS .searchEngine .farAboutEngine .engineAbout {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+#aboutUS .searchEngine .farAboutEngine .engineAbout span {
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 50px;
+  font-family: sans-serif;
+  line-height: 50px;
+  font-weight: 300;
+  color: #d1002c;
+}
+#aboutUS .searchEngine .farAboutEngine .engineAbout h5 {
+  width: 60%;
+  text-align: start;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+#aboutUS .searchEngine .farAboutEngine .farAway {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 16px;
+  font-family: sans-serif;
+  line-height: 29px;
+  font-weight: 500;
+  color: #a0a0b4;
+}
+#aboutUS .searchEngineEnd {
+  width: 100%;
+  min-height: 510px;
+  display: flex;
+  flex-direction: column;
+}
+#aboutUS .searchEngineEnd p {
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 16px;
+  font-family: sans-serif;
+  line-height: 29px;
+  font-weight: 500;
+  width: 87%;
+  color: #a0a0b4;
+}
+#aboutUS .searchEngineEnd button {
+  width: 36%;
+  min-height: 35px;
+  border: none;
+  border-radius: 7px;
+  background-color: #d1002c;
+  color: #fff;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 14px;
+  font-family: sans-serif;
+  line-height: 21px;
+  font-weight: 500;
+}
+#aboutUS .searchEngineEnd .farAboutEngine {
+  width: 90%;
+  min-height: 200px;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  flex-direction: column;
+}
+#aboutUS .searchEngineEnd .farAboutEngine .engineAbout {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+#aboutUS .searchEngineEnd .farAboutEngine .engineAbout span {
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 50px;
+  font-family: sans-serif;
+  line-height: 50px;
+  font-weight: 300;
+  color: #d1002c;
+}
+#aboutUS .searchEngineEnd .farAboutEngine .engineAbout h5 {
+  width: 60%;
+  text-align: start;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+#aboutUS .searchEngineEnd .farAboutEngine .farAway {
+  display: flex;
+  width: 85%;
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 16px;
+  font-family: sans-serif;
+  line-height: 29px;
+  font-weight: 500;
+  color: #a0a0b4;
+}
+
+@media screen and (max-width: 769px) {
+  #aboutUS {
+    width: 100%;
+  }
+  #aboutUS .designAll {
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100px;
+  }
+  #aboutUS .designAll .design {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  #aboutUS .welcome h3 {
+    font-size: 20px;
+  }
+  #aboutUS .welcome p {
+    font-size: 12px;
+  }
+  #aboutUS .searchEngineEnd p {
+    font-size: 12px;
+  }
+}
+#clients {
+  min-height: 450px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#clients .clientsTxt {
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+}
+#clients .clientsTxt h2 {
+  min-height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+  min-height: 80px;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 36px;
+  font-family: sans-serif;
+  line-height: 44px;
+  font-weight: 800;
+}
+#clients .clientsAbout {
+  background-color: #F3F3F3;
+  border-radius: 7px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 15px;
+}
+#clients .clientsAbout p {
+  color: #a0a0b4;
+  font-weight: 400;
+  width: 80%;
+}
+#clients .clientsAbout img {
+  min-height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+#clients .clientsAbout .marketingManager {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#clients .clientsAbout .marketingManager h5 {
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #000;
+}
+#clients .clientsAbout .marketingManager span {
+  color: #b3b3b3;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+#recentBlog {
+  min-height: 650px;
+  width: 100%;
+  background-color: #F3F3F3;
+  display: flex;
+  justify-content: center;
+}
+#recentBlog .recentBlogTxt {
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#recentBlog .recentBlogTxt h2 {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.8);
+  min-height: 100px;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 36px;
+  font-family: sans-serif;
+  line-height: 44px;
+  font-weight: 800;
+}
+#recentBlog #productsAll {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#recentBlog #productsAll .miniDiv {
+  width: 33%;
+  min-height: 350px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#recentBlog #productsAll .miniDiv img {
+  width: 95%;
+}
+#recentBlog #productsAll .miniDiv h2 {
+  color: #141517;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: poppins;
+}
+#recentBlog #productsAll .miniDiv button {
+  background-color: #d1002c;
+  font-size: 14px;
+  line-height: 57px;
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  transition: 0.5s ease;
+  width: 25%;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#recentBlog #productsAll .miniDiv button:hover {
+  background-color: transparent;
+  color: #d1002c;
+  border: 1px solid #d1002c;
+}
+#recentBlog .loadMore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 150px;
+}
+#recentBlog .loadMore #loadMore {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 15px;
+  color: #fff;
+  line-height: 27px;
+  font-weight: 500;
+  min-width: 180px;
+  min-height: 57px;
+  border: none;
+  border-radius: 5px;
+  background-color: #000;
+  border: 1px solid #000000;
+}
+
+@media screen and (max-width: 991px) {
+  #recentBlog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+  #recentBlog #productsAll {
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #recentBlog #productsAll .miniDiv {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #recentBlog #productsAll .miniDiv img {
+    width: 60%;
+  }
+  #recentBlog #productsAll .miniDiv button {
+    font-size: 9px;
+  }
+}
+footer {
+  width: 100%;
+  min-height: 190px;
+  display: flex;
+  align-items: end;
+}
+footer .copyright {
+  width: 100%;
+  min-height: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+}
+footer .copyright .copyrightTxt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .copyright .copyrightTxt p {
+  color: #b3b3b3;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+footer .copyright .copyrightTxt p span {
+  color: #d1002c;
+  cursor: pointer;
+}

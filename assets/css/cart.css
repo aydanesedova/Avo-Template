@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100px;
+  width: 100%;
+  position: absolute !important;
+  background-color: #343434 !important;
+}
+nav .avo {
+  width: 75%;
+}
+nav .avo a {
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+}
+nav .avo a:hover {
+  color: #fff;
+}
+nav .avo a span {
+  color: #d1002c;
+}
+nav .avo .avoList {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 18px;
+}
+nav .avo .avoList li .home {
+  color: #d1002c !important;
+}
+nav .avo .avoList li a {
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 23px;
+  color: rgba(255, 255, 255, 0.6) !important;
+  transition: 0.4s ease;
+}
+nav .avo .avoList li a:hover {
+  color: #d1002c !important;
+}
+nav .avo .avoList .searchInp {
+  height: 40px;
+  min-width: 200px;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.6) !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav .avo .avoList .searchInp #inp {
+  width: 80%;
+  min-height: 30px;
+  border: transparent;
+  background-color: transparent;
+  margin-left: 10px;
+}
+nav .avo .avoList .searchInp #inp::placeholder {
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 23px;
+  color: rgba(255, 255, 255, 0.6);
+}
+nav .avo .avoList .searchInp #btn {
+  background-color: #d1002c;
+  border-top-right-radius: 30px;
+  width: 20%;
+  min-height: 40px;
+  border: none;
+  color: rgba(255, 255, 255, 0.757);
+  border-bottom-right-radius: 30px;
+}
+
+#cart {
+  width: 100%;
+  min-height: 700px;
+  background-color: #EAE7E2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#cart #cartProducts {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 80%;
+}
+#cart #cartProducts img {
+  width: 200px;
+  border-radius: 10px;
+}
+#cart #cartProducts button {
+  background-color: #141517;
+  width: 58%;
+  border: none;
+  height: 40px;
+  font-family: poppins;
+  font-size: 12px;
+  line-height: 26px;
+  color: white;
+  transition: 0.6s ease;
+}
+#cart #cartProducts button:hover {
+  background-color: #141517;
+}
+#cart #cartProducts p {
+  font-size: 35px;
+  font-weight: 600;
+  font-family: poppins;
+  color: #333333;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 933px) {
+  #cart #cartProducts {
+    flex-wrap: wrap;
+  }
+  #cart #cartProducts img {
+    width: 70%;
+  }
+  #cart #cartProducts p {
+    font-family: Courgette;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #222;
+  }
+}
+footer {
+  width: 100%;
+  min-height: 120px;
+  display: flex;
+  align-items: end;
+}
+footer .copyright {
+  width: 100%;
+  min-height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+}
+footer .copyright .copyrightTxt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .copyright .copyrightTxt p {
+  color: #b3b3b3;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+footer .copyright .copyrightTxt p span {
+  color: #d1002c;
+  cursor: pointer;
+}
