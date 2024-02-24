@@ -552,6 +552,7 @@ nav .avo .avoList .searchInp #btn {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin-top: 1rem;
 }
 #recentBlog #productsAll .miniDiv img {
   width: 95%;
